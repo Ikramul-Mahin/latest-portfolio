@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import sale from "../../Assets/Projects/sale-removebg-preview.png";
+import skill from "../../Assets/Projects/skill-removebg-preview.png";
+import tutor from "../../Assets/Projects/tutor-removebg-preview.png";
 
 function Projects() {
   return (
@@ -23,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={sale}
               isBlog={false}
               title="Used Book Sale"
               description="This website is a used for used book sale. Where anyone can buy and sell secoand hand books. There is three different user login system Admin, Seller & Buyer. I have made using some latest technologies like React, Firebase, Tailwind Css, TanstackQuary. Also this site has a realtime backend."
@@ -31,30 +28,30 @@ function Projects() {
               demoLink="https://assignment-client-12.web.app/"
             />
           </Col>
-
+          <link rel="stylesheet" href="" />
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={tutor}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Super Tutor"
+              description="My personal tution review website build with React.js and Tailwind Css which takes the content from makdown files and renders it using React.js.Here is a good authentication system using firebase.For UI TaliwindCss liberary Daisy UI is used. A student can review a subject and aslo can delete his/her comment. "
+              ghLink="https://github.com/Ikramul-Mahin/service-review-client-side"
+              demoLink="https://assignment-11-325fb.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={skill}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Skill Developer"
+              description="An IT related course website made for developing self skills. This site is designed with Bootsrap and React JS.This is a Full Stack website. Authentication of Firebase and React pdf is used. You can downlode any course outline  "
+              ghLink="https://github.com/Ikramul-Mahin/learing-platform-client-side"
+              demoLink="https://practice-all-task.web.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,9 +60,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,9 +71,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
             // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +83,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
